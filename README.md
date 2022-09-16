@@ -16,7 +16,7 @@ react-native-web에서는 app과 다르게 restApikey, redirecturl을 code와 �
 | :-------------------- | :---: | :---------------------------: | :----------------------------------------------------------------------------------------------------------------- |
 | login                 |   restApiKeyWeb, redirectUrlWeb, codeWeb    |   Promise{KakaoOAuthWebToken} | 로그인                                                    |
 | loginWithKakaoAccount |       |      | 웹 지원 x |
-| getProfile            |       |     Promise{KakaoProfile}     | 프로필 불러오기                                                                                                    |
-| logout                |       |        Promise{string}        | 로그아웃                                                                                                           |
-| unlink                |       |        Promise{string}        | 연결끊기                                                                                                           |
-| getAccessToken        |       | Promise{KakaoAccessTokenInfo} | 액세스 토큰 조회   
+| getProfile            |    tokenWeb   |     Promise{KakaoProfile}     | 프로필 불러오기                                                                                                    |
+| logout                |    tokenWeb   |        Promise{string}        | 로그아웃                                                                                                           |
+| unlink                |   tokenWeb    |        Promise{string}        | 연결끊기                                                                                                           |
+| getAccessToken        |       |  | 웹 지원 x  
