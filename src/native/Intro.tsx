@@ -9,7 +9,6 @@ const Intro = () => {
   const signInWithKakao = async (): Promise<void> => {
     try {
       const token = await login();
-      console.log(token, 'token');
       setResult(JSON.stringify(token));
     } catch (err) {
       // eslint-disable-next-line no-console
