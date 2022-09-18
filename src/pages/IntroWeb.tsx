@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { useLocation, useNavigate } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import { View } from 'react-native';
 import { login, getProfile as getKakaoProfile, logout, unlink, } from '@react-native-seoul/kakao-login';
-import ResultView from './ResultView';
+import ResultViewWeb from './ResultViewWeb';
 
 const RestApiKey = "aa0293e157b3b865a943deade9a3c1a8";
 const redirectUrl = "http://localhost:3000";
@@ -90,7 +90,7 @@ function Login() {
       justifyContent: "center", alignItems: "center",
       alignSelf: "center",
     }}>
-      <ResultView type={type} state={state} />
+      <ResultViewWeb type={type} state={state} />
       <a
         href={kakaoUrl}
         style={{
