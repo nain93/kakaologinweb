@@ -18,7 +18,6 @@ function Main() {
 
   const handleLogout = async () => {
     try {
-
       const data = await axios.post("https://kapi.kakao.com/v1/user/logout", {}, {
         headers: {
           Authorization: `Bearer ${state.token}`,
