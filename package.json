@@ -11,7 +11,7 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
-    "@react-native-seoul/kakao-login": "^5.1.1",
+    "@react-native-seoul/kakao-login": "file:..",
     "@types/styled-components": "^5.1.26",
     "axios": "^0.27.2",
     "query-string": "^7.1.1",
