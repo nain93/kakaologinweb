@@ -1,4 +1,4 @@
-package com.kakaologinweb.newarchitecture;
+package com.KakaoLogin.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.fabric.ReactNativeConfig;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.kakaologinweb.BuildConfig;
-import com.kakaologinweb.newarchitecture.components.MainComponentsRegistry;
-import com.kakaologinweb.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.KakaoLogin.BuildConfig;
+import com.KakaoLogin.newarchitecture.components.MainComponentsRegistry;
+import com.KakaoLogin.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 
